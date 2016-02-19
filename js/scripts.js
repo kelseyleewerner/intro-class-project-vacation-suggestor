@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $("form#vacation-questions").submit(function(event) {
+
+    $("button").click(function() {
+      $("body").addClass("test");
+    });
 
 
 
@@ -7,6 +12,6 @@ $(document).ready(function() {
 
 
 
-
-  
+    event.preventDefault();
+   });
 });
