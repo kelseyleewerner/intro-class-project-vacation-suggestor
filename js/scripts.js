@@ -6,10 +6,52 @@ $(document).ready(function() {
     var swim = $("select#swim").val();
     var adventure = $("select#adventure").val();
 
+    if (kids === 'yes') {
+      $('#disney').show();
+      $('#everest, #sydney').hide();
+    }
 
+      else {
+        if (temp === 'cold') {
+          $('#everest').show();
+          $('#disney, #sydney').hide();
+        }
 
-
-
+          else {
+            if (animal === 'mouse' && swim === 'yes' && adventure === 'no') {
+              $('#disney').show();
+              $('#everest, #sydney').hide();
+            }
+            if (animal === 'mouse' && swim === 'no' && adventure === 'no') {
+              $('#disney').show();
+              $('#everest, #sydney').hide();
+            }
+            if (animal === 'mouse' && swim === 'no' && adventure === 'yes') {
+              $('#disney').show();
+              $('#everest, #sydney').hide();
+            }
+            if (animal === 'shark' && swim === 'no' && adventure === 'no') {
+              $('#disney').show();
+              $('#everest, #sydney').hide();
+            }
+            if (animal === 'mouse' && swim === 'yes' && adventure === 'yes') {
+              $('#sydney').show();
+              $('#everest, #disney').hide();
+            }
+            if (animal === 'shark' && swim === 'yes' && adventure === 'no') {
+              $('#sydney').show();
+              $('#everest, #disney').hide();
+            }
+            if (animal === 'shark' && swim === 'yes' && adventure === 'yes') {
+              $('#sydney').show();
+              $('#everest, #disney').hide();
+            }
+            if (animal === 'shark' && swim === 'no' && adventure === 'yes') {
+              $('#sydney').show();
+              $('#everest, #disney').hide();
+            }
+          }
+      }
 
     event.preventDefault();
    });

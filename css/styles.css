@@ -1,11 +1,3 @@
-#disney {
-  display: none;
-}
-
-#everest {
-  display: none;
-}
-
-#sydney {
+#disney, #everest, #sydney {
   display: none;
 }
