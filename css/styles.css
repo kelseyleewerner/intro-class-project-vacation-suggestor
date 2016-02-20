@@ -18,3 +18,16 @@
   padding-bottom: 1%;
   padding-left: 5%;
 }
+
+.button {
+  background-color: #a02db6;
+  color: #efdef2;
+}
+
+select {
+  background-color: white;
+}
+
+.form-margin {
+  margin: 3%;
+}
