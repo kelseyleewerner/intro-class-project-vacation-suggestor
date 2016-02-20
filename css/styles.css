@@ -2,13 +2,38 @@
   display: none;
 }
 
+a {
+  color: #a02db6;
+}
+
+select {
+  background-color: white;
+}
+
+ul {
+  list-style-image: url(bullet.png);
+}
+
 .background {
   margin-top: 5%;
   background-color: #f4f2e8;
 }
 
+.button {
+  background-color: #a02db6;
+  color: #efdef2;
+}
+
+.button-margin {
+  margin-top: 2%;
+}
+
 .font {
   font-family: sans-serif;
+}
+
+.form-margin {
+  margin: 3%;
 }
 
 .header {
@@ -19,35 +44,14 @@
   padding-left: 5%;
 }
 
-.button {
-  background-color: #a02db6;
-  color: #efdef2;
-}
-
-select {
-  background-color: white;
-}
-
-.form-margin {
-  margin: 3%;
-}
-
-.question-margin {
-  margin-bottom: 3%;
-}
-
 .img-margin {
   margin: 5%;
 }
 
-a {
-  color: #a02db6;
-}
-
-ul {
-  list-style-image: url(bullet.png);
-}
-
 .page-bottom {
   margin-bottom: 5%;
+}
+
+.question-margin {
+  margin-bottom: 3%;
 }

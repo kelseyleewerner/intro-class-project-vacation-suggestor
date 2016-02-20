@@ -55,4 +55,20 @@ $(document).ready(function() {
 
     event.preventDefault();
    });
+
+  $("form#email-submit").submit(function(event) {
+    var email = $("input#email").val();
+
+    if (email) {
+      alert('Thank you! A confirmation email will be sent your way shortly.');
+    }
+
+    else {
+      alert('Please enter an email address.');
+    }
+
+    event.preventDefault();
+  });
+
+
 });
