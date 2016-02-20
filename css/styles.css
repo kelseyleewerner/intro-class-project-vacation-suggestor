@@ -31,3 +31,11 @@ select {
 .form-margin {
   margin: 3%;
 }
+
+.question-margin {
+  margin-bottom: 3%;
+}
+
+.img-margin {
+  margin: 5%;
+}
